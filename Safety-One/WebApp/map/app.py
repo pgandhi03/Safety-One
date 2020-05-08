@@ -17,5 +17,5 @@ def home():
 @app.route('/register')
 def register():
 
-	maill(['nikhilagarwal82537@gmail.com','karishmahekk@gmail.com','itsprachi03@gmail.com'],"Vivekananda Institute Of Professional Studies")
+	maill(['___@gmail.com','___@gmail.com','___@gmail.com'],"<location>")
 	return "Doneeeee"
