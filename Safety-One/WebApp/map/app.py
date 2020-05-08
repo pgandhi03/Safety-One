@@ -14,16 +14,6 @@ def home():
     return render_template("home.html")
 
 
-
-# @app.route("/home", methods=['GET','POST'])
-# def home():
-	
-# 	if request.method=='POST':
-# 		maill(['nikhilagarwal82537@gmail.com','karishmahekk@gmail.com','itsprachi03@gmail.com'],"Vivekananda Institute Of Professional Studies")
-# 		return "Doneeeee"
-
-# 	return render_template('home.html')
-
 @app.route('/register')
 def register():
 
